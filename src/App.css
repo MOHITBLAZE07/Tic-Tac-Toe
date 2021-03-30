@@ -1,0 +1,97 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  background-color: #dfe6e9;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.main-box {
+  background-color: #3ae374;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  box-shadow: -7px 6px 28px 12px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -7px 6px 28px 12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -7px 6px 28px 12px rgba(0, 0, 0, 0.75);
+}
+
+.main-box div {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #148106;
+  padding: 70px;
+  font-size: 2.9rem;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-box div:hover {
+  background-color: #2eaf5b;
+  cursor: pointer;
+  -webkit-transition: all 1.2s;
+  transition: all 1.2s;
+}
+
+section {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+  border: 1px solid #148106;
+}
+
+section:hover {
+  cursor: pointer;
+}
+
+button {
+  background-color: #e74c3c;
+  font-weight: bold;
+  font-size: 1.4rem;
+  padding: 5px 10px;
+  color: white;
+  outline: none;
+  border: none;
+  -webkit-transition: all 1.2s;
+  transition: all 1.2s;
+}
+
+button:hover {
+  background-color: #bb2c1c;
+  cursor: pointer;
+  -webkit-transition: all 1.2s;
+  transition: all 1.2s;
+}
+
+footer {
+  position: fixed;
+  bottom: 15px;
+  right: 50px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #2d3436;
+}
+/*# sourceMappingURL=App.css.map */
